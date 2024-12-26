@@ -1,6 +1,8 @@
 import NavBar from "./Pages/NavBar";
 import Streamers from "./Pages/Streamers";
 import Slide from "./Pages/Slide";
+import Shop from "./Pages/Shop";
+import Footer from "./Pages/Footer";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <NavBar />
       <Streamers />
       <Slide />
+      <Shop />
+      <Footer />
     </div>
   );
 }

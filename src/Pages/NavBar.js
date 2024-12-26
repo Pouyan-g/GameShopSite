@@ -7,7 +7,7 @@ import PersonIcon from "@mui/icons-material/Person";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
-
+import GitHubIcon from "@mui/icons-material/GitHub";
 const Container = styled.div`
   display: flex;
   background-color: rgb(31, 41, 55);
@@ -45,6 +45,7 @@ function NavBar() {
       </ListBtn>
 
       <IconList>
+        <GitHubIcon className="mr-4" />
         <Badge badgeContent={1} color="primary">
           <ShoppingCartIcon className="mr-4" />
         </Badge>
